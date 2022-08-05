@@ -5,7 +5,7 @@ For this challenge I had to add comments to the CSS file and make all the button
 # URL for website
 
 [Here is the link to the website](file:///Users/jblay10/Challenge1/-urban-octo-telegram/urban-octo-telegram-main/Develop/index.html
-)
+) file:///Users/jblay10/Challenge1/-urban-octo-telegram/urban-octo-telegram-main/Develop/index.html
 
 # Screenshots of the webpage
 
