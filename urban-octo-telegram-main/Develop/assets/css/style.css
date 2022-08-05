@@ -1,0 +1,270 @@
+/* The "*" is a universal selector for all elements */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* This is the websites background color */
+
+body {
+    background-color: #d9dcd6;
+}
+
+/* This is the header's attributes like background color, font, etc. */
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* Size and display of the header "Horiseon" */
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* Changes part of the color in the header "seo" */
+
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* This are the attributes for the other options in the header Ex: Social Media Marketing & Online Reputation Management */
+
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* Cancels the list display for the header options */
+
+.header div ul {
+    list-style-type: none;
+}
+
+/* This makes the options on the right of the header appear side by side */
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* This edits all the hyperlinks (options in the header) */
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* This edits all the paragraphs in the website */
+
+p {
+    font-size: 16px;
+}
+
+/* The hero class is for the main display picture */
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* This flout is for search-engine-optimization img to be on the left of the information  */
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* This flout is for online-reputation-management img to be on the right of the information  */
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* This class 'content' is for the column on the right of the main information Ex: Lead Generation, Brand Awareness & Cost Management  */
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Benefits is the class for the column on the right  */
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* Color and space for Lead Leneration info */
+
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Color and space for Brand Awareness info */
+
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Color and space for Cost Management info */
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Space and alignment for header Lead Leneration  */
+
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Space and alignment for header Brand Awareness */
+
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Space and alignment for header Cost Management */
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Size and display for Lead image */
+
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Size and display for Brand image */
+
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Size and display for Cost image */
+
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* This is the background box for Search engine */
+
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* This is the background box for Online reputation */
+
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* This is the background box for social media marketing */
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Size display for Search image */
+
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+/* Size display for Online image  */
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+/* Size display for Media image  */
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/* Size and alignment for header Search Engine Optimization */
+
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Size and alignment for header Online Reputation Management */
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Size and alignment for header Social Media Marketing */
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Space and alignmeng of Footer */
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* Footer title 'Made with ❤️️ by Horiseon' size */
+
+.footer h2 {
+    font-size: 20px;
+}
