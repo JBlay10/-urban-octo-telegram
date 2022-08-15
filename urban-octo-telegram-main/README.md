@@ -1,14 +1,11 @@
-# Challenge 1 Horiseon
+# Horiseon
 
-For this challenge I had to add comments to the CSS file and make all the buttons on the top right of the header to work properly. Below are some pictures of the website.
-
-# URL for website
-
-[Here is the link to the website](file:///Users/jblay10/Challenge1/-urban-octo-telegram/urban-octo-telegram-main/Develop/index.html
-)
+For this challenge I was given a starter code for a website. To be able to fully complete the challenge I had to add comments to the CSS file, make all the buttons of the header to work properly, add alternate placeholders for images, change the title name tab, and rearrange the classes/ids to follow a propper structure.
 
 # Screenshots of the webpage
 
-![Getting Started](./ss1.jpg)
-![Getting Started](./ss2.jpg)
-![Getting Started](./ss3.jpg)
+![Getting Started](./Develop/assets/images/ss4.png)
+
+# URL for website
+
+[Here is the link to the website](https://jblay10.github.io/-urban-octo-telegram/urban-octo-telegram-main/Develop/index.html)
