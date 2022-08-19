@@ -1,17 +1,16 @@
+/*-------- Universal selector --------*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-/*-------- background color --------*/
-
+/*-------- The main content section bg-color is white --------*/
 body {
     background-color: #d9dcd6;
 }
 
 /*------------------ Header --------------------*/
-
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -19,16 +18,18 @@ body {
     color: #ffffff;
 }
 
+/*-------- Size and display of the header "Horiseon" --------*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-
+/*-------- Changes part of the color in the header "seo" --------*/
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/*-------- This are the attributes for the other options in the header Ex: Social Media Marketing & Online Reputation Management --------*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -37,17 +38,18 @@ body {
     font-size: 20px;
 }
 
+/*-------- Cancels the list display for the header options --------*/
 .header nav ul {
     list-style-type: none;
 }
 
+/*-------- This makes the options on the right of the header appear side by side --------*/
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
 /*----------- a (all hyperlinks) & p (all paragraphs) ------------------- */
-
 a {
     color: #ffffff;
     text-decoration: none;
@@ -79,15 +81,16 @@ p {
     margin-left: 25px;
 }
 
-/*----------- Main Website content --------------*/
+/*----------- This class 'content' is for the column on the right of the main information Ex: Lead Generation, Brand Awareness & Cost Management --------------*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/*-------------- Search Engine Optimazation -----------------*/
+/*------------------- Search Engine Optimazation ----------------------*/
 
+/*-------- Content box for S.E. --------*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -97,10 +100,12 @@ p {
     color: #ffffff;
 }
 
+/*-------- Size display for the image --------*/
 .search-engine-optimization img {
     max-height: 200px;
 }
 
+/*-------- Size and space for header --------*/
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -109,6 +114,7 @@ p {
 
 /*--------------- Online Reputation Management -----------------*/
 
+/*-------- Content box for O.R.--------*/
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -118,17 +124,20 @@ p {
     color: #ffffff;
 }
 
+/*-------- Size display for the image --------*/
 .online-reputation-management img {
     max-height: 200px;
 }
 
+/*-------- Size and space for header --------*/
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/*--------------- Social Media Marketing -----------------*/
+/*----------------------------- Social Media Marketing -------------------*/
 
+/*---- This is the background box for S.M.M. ----*/
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -138,10 +147,12 @@ p {
     color: #ffffff;
 }
 
+/*-------- Size display for the image --------*/
 .social-media-marketing img {
     max-height: 200px;
 }
 
+/*-------- Size and space for header --------*/
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -149,6 +160,7 @@ p {
 
 /*--------------------- Benefits right column -----------------------*/
 
+/*-------- This is the column box on the right --------*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -160,51 +172,63 @@ p {
     background-color: #2589bd;
 }
 
-/*------------- Benefit Lead ----------------*/
+/*------------------ Benefit Lead -------------------------*/
+
+/*-------- Color and space for info --------*/
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*-------- Size and alignment for header --------*/
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*-------- Size display for the image --------*/
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/*------------- Benefit Brand ----------------*/
+/*--------------------- Benefit Brand ------------------*/
+
+/*-------- Color and space for info --------*/
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*-------- Size and alignment for header --------*/
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*-------- Size display for the image --------*/
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/*------------- Benefit Cost ----------------*/
+/*------------------------ Benefit Cost -------------------------*/
+
+/*-------- Color and space for info --------*/
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*-------- Size and alignment for header --------*/
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*-------- Size display for the image --------*/
 .benefit-cost img {
     display: block;
     margin: 10px auto;
@@ -220,6 +244,7 @@ p {
     text-align: center;
 }
 
+/*-------- text size for footer header --------*/
 .footer h2 {
     font-size: 20px;
 }
