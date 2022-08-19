@@ -4,7 +4,7 @@ For this challenge I was given a starter code for a website. To be able to fully
 
 # Screenshots of the webpage
 
-![Getting Started](./Develop/assets/images/ss4.png)
+![Horiseon Webpage](./assets/images/ss4.png)
 
 # URL for website
 
