@@ -8,4 +8,6 @@ For this challenge I was given a starter code for a website. To be able to fully
 
 # URL for website
 
-[Here is the link to the website](https://jblay10.github.io/-urban-octo-telegram/urban-octo-telegram-main/Develop/index.html)
+[Here is the link to the website](https://jblay10.github.io/-urban-octo-telegram/)
+
+[Back up link](https://jblay10.github.io/-urban-octo-telegram/index.html)
